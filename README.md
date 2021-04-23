@@ -39,17 +39,3 @@ After
 
 After that, launch the _localhost_ in your browser in which your project will be
 And the project itself is in the _app_ folder 
-
-## Ocassionally you can see this ERROR
-
-![](https://ibb.co/845fxjs)
-
-Like this: 
-`gulp : File C:\Users\user\AppData\Roaming\npm\gulp.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see 
-about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
-At line:1 char:1
-+ gulp
-+ CategoryInfo: SecurityError: (:) [], PSSecurityException
-+ + FullyQualifiedErrorId: UnauthorizedAccess
-`
-

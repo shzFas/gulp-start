@@ -39,3 +39,29 @@ After
 
 After that, launch the _localhost_ in your browser in which your project will be
 And the project itself is in the _app_ folder 
+
+## Occasionally you can see this ERROR
+
+![](https://sun9-25.userapi.com/impg/UN67Ltw6Es48HKHTrnw5KPcYe0V7ULabS9XF_Q/YPgk-KVVaUI.jpg?size=1064x138&quality=96&sign=697604e8a3cc7bac9b1edcd6688cddf6&type=album)
+
+_Like this_
+
+`gulp : File C:\Users\user\AppData\Roaming\npm\gulp.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see `
+`about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.`
+
+_Or this_
+
+`+ CategoryInfo          : SecurityError: (:) [], PSSecurityException`
+`+ FullyQualifiedErrorId : UnauthorizedAccess`
+
+## Open POWERSHELL as admin
+
+_Just type_
+
+`Set-ExecutionPolicy RemoteSigned`
+
+![](https://sun9-68.userapi.com/impg/1juBrNj4NIBubsd36_2PCWINRkJlvAVeSoMIdw/TX-Ne-6zSrs.jpg?size=833x105&quality=96&sign=92c48632a55aa2b3a350664b01465049&type=album)
+
+_Type 'A'_
+
+`[A] Yes to All`

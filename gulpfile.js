@@ -60,7 +60,7 @@ function styles() {
         .pipe(browserSync.stream())
 }
 
-function build(){
+function build(){ // gulp build - for create dist directory
     return src([
         'app/css/style.min.css',
         'app/fonts/**/*',
@@ -83,5 +83,5 @@ exports.scripts = scripts;
 exports.images = images;
 exports.cleanDist = cleanDist;
 
-exports.build = series(cleanDist, images, build); // отчистка папки дист
-exports.default = parallel(styles, scripts, browsersync, watching); // просто галп
+exports.build = series(cleanDist, images, build); // clear dist directory
+exports.default = parallel(styles, scripts, browsersync, watching); // just command - gulp
